@@ -68,6 +68,16 @@ function urnaEletronica() {
     let totalVotosCandidatos3 = 0;
     let totalVotosBrancos = 0;
     let totalVotosNulo = 0;
+    let totalVotos = 0;
+    let voto;
+    let nomeGanhador;
+    let votosGanhador;
+    let ganhador = true;
+    let nomeCandidato1;
+    let nomeCandidato2;
+    let nomeCandidato3;
+    let encerrarVotacao;
+    let senhaMesario;
 
     const nomeCandidato1= prompt ('Digite o nome do Candidato 1')
     const nomeCandidato2= prompt ('Digite o nome do Candidato 2')
